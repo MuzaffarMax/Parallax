@@ -1,6 +1,7 @@
 body {
     font-family: Verdana;
     font-size: 2em;
+    overflow-x: hidden;
 }
 * {
     margin:0;
