@@ -87,3 +87,82 @@ a.hometxt {
     background-color: rgba(0,51,41,255);
     z-index: 2;
 }
+#javatext {
+    position: relative;
+    top: 10%;
+
+
+}
+
+#countlabel {
+    display: block;
+    text-align:center;
+    font-size:10em;
+    font-family:Helvetica;
+    position: relative;
+    left: 0%;
+}
+
+#btn {
+    text-align: center;
+}
+.buttons {
+    font-size: 1.5em ;
+    background-color: black;
+    color: white;
+    border-radius: 20px ;
+    cursor: pointer;
+    transition: background-color 0.25s ;
+    border: 0;
+}
+.buttons:hover {
+    background-color: rgb(27, 27, 27);
+}
+#interface {
+    margin: auto;
+    position: relative;
+    height: 500px;
+    width: 600px;
+    background-color: gray;
+    border-radius: 40px;
+    top: 20%;
+    left: -32%;
+}
+
+.randomgenerator {
+    width:200px;
+    height: 200px;
+    position: relative;
+    left: 2%;
+    top:22%;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20%;
+}
+
+#rollbtn {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color:  rgba(161, 161, 161, 0.459);
+    border: 0px;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+#rollbtn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#mylabel {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 45%;
+    top: 30%;
+
+}
